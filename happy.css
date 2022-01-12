@@ -478,7 +478,7 @@ body .inner .circles .circle-l:nth-of-type(9), body .inner .circles .circle-s:nt
 @keyframes inBlur {
 	from {
 		user-select: none;
-		opacity: -8;
+		opacity: -10;
 	}
 	to {
 		/* user-select: auto; */
