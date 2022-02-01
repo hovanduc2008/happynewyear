@@ -20,7 +20,7 @@ html {
     margin: 0 auto;
     margin-bottom: 100px;
     
-    animation: fadeIn 5s linear;
+    animation: fadeIn 6s linear;
 }
 
 .first {
@@ -44,7 +44,7 @@ p {
     border-radius: 10px;
     position: relative;
     margin: auto;
-    animation: inBlur 10s linear;
+    animation: inBlur 15s linear;
 }
 .btn-link {
     text-decoration: none;
@@ -119,6 +119,7 @@ li {
 }
 /* video */
 .video {
+    
     display: flex;
     width: 1240px;
     position: relative;

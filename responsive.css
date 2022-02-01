@@ -3,10 +3,19 @@
         animation: fadeIn 4s linear;
     }
     
+    .btn {
+        background-color: #FF5349;
+        width: 200px;
+        height: 50px;
+        border-radius: 10px;
+        position: relative;
+        margin: auto;
+        animation: inBlur 15s linear;
+    }
 
     .video-youtube#youtube {
         width: 51%;
-    height: 69%;
+         height: 69%;
     }
     
     body .inner#inner {
@@ -18,5 +27,10 @@
 	.app {
 		width: 100%;
 	}
+
+    .first#first {
+        font-size:25px!important;
+    }
+
     }
 
