@@ -1,6 +1,7 @@
 'use strict';
 console.clear();
 
+console.log("Quynh Trang")
 // This is a prime example of what starts out as a simple project
 // and snowballs way beyond its intended size. It's a little clunky
 // reading/working on this single file, but here it is anyways :)
@@ -67,7 +68,7 @@ const PI_HALF = Math.PI * 0.5;
 
 // Stage.disableHighDPI = true;
 const trailsStage = new Stage('trails-canvas');
-const mainStage = new Stage('main-canvas');
+const mainStage = new Stage('main-canvas');console.log(mainStage)
 const stages = [
 	trailsStage,
 	mainStage
