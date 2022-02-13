@@ -2106,9 +2106,12 @@ const soundManager = {
 			playbackRateMin: 0.85,
 			playbackRateMax: 0.95,
 			fileNames: [
-				'lift1.mp3',
-				'lift2.mp3',
-				'lift3.mp3'
+				'https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/lift1.mp3',
+				'https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/lift2.mp3',
+				'https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/lift3.mp3',
+				'/sourse/2ss.mp3',
+				'/sourse/2s_Trim.mp3'
+				
 			]
 		},
 		burst: {
@@ -2116,8 +2119,8 @@ const soundManager = {
 			playbackRateMin: 0.8,
 			playbackRateMax: 0.9,
 			fileNames: [
-				'burst1.mp3',
-				'burst2.mp3'
+				'https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/burst1.mp3',
+				'https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/burst2.mp3'
 			]
 		},
 		burstSmall: {
@@ -2125,21 +2128,21 @@ const soundManager = {
 			playbackRateMin: 0.8,
 			playbackRateMax: 1,
 			fileNames: [
-				'burst-sm-1.mp3',
-				'burst-sm-2.mp3'
+				'https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/burst-sm-1.mp3',
+				'https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/burst-sm-2.mp3'
 			]
 		},
 		crackle: {
 			volume: 0.2,
 			playbackRateMin: 1,
 			playbackRateMax: 1,
-			fileNames: ['crackle1.mp3']
+			fileNames: ['https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/crackle1.mp3']
 		},
 		crackleSmall: {
 			volume: 0.3,
 			playbackRateMin: 1,
 			playbackRateMax: 1,
-			fileNames: ['crackle-sm-1.mp3']
+			fileNames: ['https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/crackle-sm-1.mp3']
 		}
 	},
 
@@ -2161,7 +2164,7 @@ const soundManager = {
 			const { fileNames } = source;
 			const filePromises = [];
 			fileNames.forEach(fileName => {
-				const fileURL = this.baseURL + fileName;
+				const fileURL =  fileName;
 				// Promise will resolve with decoded audio buffer.
 				const promise = fetch(fileURL)
 					.then(checkStatus)
