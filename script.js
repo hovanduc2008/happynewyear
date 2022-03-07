@@ -2109,6 +2109,8 @@ const soundManager = {
 				'https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/lift1.mp3',
 				'https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/lift2.mp3',
 				'https://s3-us-west-2.amazonaws.com/s.cdpn.io/329180/lift3.mp3',
+				'/sourse/2ss.mp3',
+				'/sourse/2s_Trim.mp3',
 				
 			]
 		},
